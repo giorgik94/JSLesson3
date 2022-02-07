@@ -1,0 +1,36 @@
+@media (max-width:700px) {
+    .nav-main-div {
+        position: absolute;
+        right: 0px;
+        height: 300px;
+        top: 50px;
+        background-color: white;
+        max-width: 150px;
+        transform: translateX(100%);
+        transition: transform 0.5s ease;
+    }
+    .list-wrapper {
+        right: 0px;
+        height: 300px;
+        top: 50px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        max-width: 150px;
+    }
+
+    .burger {
+        display: flex;
+        cursor: pointer;
+    }
+    .nav-main-div.active {
+        transform: translateX(0%);
+    }
+
+    body {
+        overflow: hidden;
+    }
+
+}
