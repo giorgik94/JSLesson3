@@ -85,3 +85,76 @@ body {
     height: 8px;
     background-color: black;  
 }
+
+#bl-2.bl-2-active {
+    display: none;
+}
+#bl-1.bl-1-active {
+    transform: rotate(45deg);
+    position: relative;
+    transition: all 0.5s ease;
+}
+#bl-3.bl-3-active {
+    transform: rotate(-45deg);
+    position: absolute;
+    transition: all 0.5s ease;
+}
+
+.section1 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+    max-width: 800px;
+    width: 100%;
+}
+
+#label1 {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#input1 {
+    margin-bottom: 10px;
+}
+
+#submit1 {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#delete-all-id {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 20px;
+    background-color: red;
+}
+
+.answer-wrapper {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.delete-paragraph {
+    cursor: pointer;
+    display: flex;
+    margin-left: 10px;
+    font-weight: bolder;
+    color: white;
+}
+
+.new-paragraph {
+    display: flex;
+}
+

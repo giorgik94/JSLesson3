@@ -8,6 +8,7 @@
         max-width: 150px;
         transform: translateX(100%);
         transition: transform 0.5s ease;
+        overflow: hidden;
     }
     .list-wrapper {
         right: 0px;
